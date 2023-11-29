@@ -63,7 +63,7 @@ const AboutSection = () => {
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript, React, NEXTjs 13, Node.js, Express, Microsoft Access Database Management,
-            MONGODB, PRISMA DB, HTML, CSS, TAILWIND CSS. I am a quick learner and I am always
+            MONGODB, PRISMA DB, HTML, CSS and TAILWIND CSS. I am a quick learner and I am always
             looking to expand my knowledge and skill set. I am a team player and
             I am excited to work with others to create amazing applications and awesome browsing experiences for users.
           </p>
