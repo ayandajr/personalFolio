@@ -84,7 +84,7 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
-      <p className="text-center text-base font-semilbold text-white sm:mr-7 sm:ml-7 sm:mt-4 sm:mb-8 md:mb-12" style={{marginRight: "200px", marginLeft: "200px", lineHeight: "2"}}>
+      <p className="text-center text-base font-semilbold text-white sm:mr-0 sm:ml-0 sm:mb-0 sm:mt-0 lg:mr-48 lg:ml-48 mt-4 mb-8 md:mb-12" style={{lineHeight: "2"}}>
         Please note that the below projects are mere examples showcasing technical ability
         while providing a preview of the depth of flexibility when it comes to the <b>custom</b> development 
         of a clients website.
@@ -126,10 +126,10 @@ const ProjectsSection = () => {
           </motion.li>
         ))}
       </ul>
-      <h2 className="text-center text-4xl font-bold text-gray-500 mt-10 mb-8 md:mb-12" style={{marginTop: "140px", marginBottom: "50px"}}>
+      <h2 className="text-center text-4xl font-bold text-gray-500 lg:mt-36 lg:mb-12 mt-10 mb-8 md:mb-12">
         Coming Soon...
       </h2>
-      <p className="text-center text-base font-semilbold text-white mt-4 mb-8 md:mb-12" style={{marginRight: "200px", marginLeft: "200px", lineHeight: "2"}}>
+      <p className="text-center text-base font-semilbold text-white sm:mr-0 sm:ml-0 sm:mb-0 sm:mt-0 lg:mr-48 lg:ml-48 mt-4 mb-8 md:mb-12" style={{lineHeight: "2"}}>
         Experience the future of online shopping: an upcoming ecommerce marvel meticulously crafted with cutting-edge Next 13 and React technologies,
         setting a groundbreaking new standard in website development by the visionary team at ayandajr.
       </p>

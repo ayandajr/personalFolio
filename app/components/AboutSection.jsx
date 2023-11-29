@@ -58,8 +58,8 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/MEMOJI5.png" alt= "Ayandajr memoji" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
+          <h2 className="text-4xl font-bold text-white mb-4 text-center">About Me</h2>
+          <p className="text-base lg:text-lg text-center">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript, React, NEXTjs 13, Node.js, Express, Microsoft Access Database Management,
@@ -67,7 +67,7 @@ const AboutSection = () => {
             looking to expand my knowledge and skill set. I am a team player and
             I am excited to work with others to create amazing applications and awesome browsing experiences for users.
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="flex flex-row justify-center mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
@@ -90,7 +90,7 @@ const AboutSection = () => {
               Certifications{" "}
             </TabButton>
           </div>
-          <div className="mt-8">
+          <div className="mt-8 flex justify-center">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>

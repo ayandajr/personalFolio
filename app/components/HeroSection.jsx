@@ -12,7 +12,7 @@ const HeroSection = () => {
         <section style={{marginBottom: "170px"}}>
             <div className="grid grid-cols-1 sm:grid-cols-12">
                 <div className="col-span-7 place-self-center text-center sm:text-left">
-                    <h1 className="text-white mb-15 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+                    <h1 className="text-white mb-15 text-4xl sm:text-5xl lg:text-8xl sm:mb-12 lg:leading-normal font-extrabold">
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-900  to-blue-500">Hello, I&apos;m {" "}</span>
                         <TypeAnimation
                             sequence={[
@@ -27,9 +27,10 @@ const HeroSection = () => {
                             wrapper="span"
                             speed={15}
                             repeat={Infinity}
+                            className="sm:mb-12"
                         />
                     </h1>
-                    <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl" style={{lineHeight: "2"}}>    
+                    <p className="text-[#ADB7BE] text-base sm:mt-10 sm:mb-10 sm:text-lg  lg:text-xl" style={{marginTop: "50px", marginBottom: "50px", lineHeight: "2"}}>    
                         An ambitious and dynamic full stack web developer, driven by a hunger for innovation and excellence. <br />
                         With a relentless passion for crafting seamless digital experiences, my dedication to mastering cutting-edge 
                         technologies ensures transformative solutions that captivate users and elevate businesses. <br />
@@ -37,7 +38,7 @@ const HeroSection = () => {
                         in any project I participate in.
                     </p>
                     <div>
-                        <button className="px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-blue-900  to-blue-500 hover:bg-slate-200 text-white" >Hire Me</button> 
+                        <button href= "#contact" className="px-6 py-3 rounded-full bg-gradient-to-br from-blue-900  to-blue-500 hover:bg-slate-200 text-white" >Hire Me</button> 
                         {/* <button className="px-6 py-3 rounded-full mr-4  bg-transparent hover:bg-slate-800 text-white border border-blue-600">Download CV</button> */}
                     </div>
                 </div>
@@ -48,7 +49,7 @@ const HeroSection = () => {
                         transition={{ duration: 0.5 }}
                         className="col-span-4 place-self-center mt-4 lg:mt-0"
                     >
-                        <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+                        <div className="sm:mt-10 rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
                             <Image
                                 src="/images/memoji3.png"
                                 alt="hero image"
