@@ -4,7 +4,6 @@ import Navbar from './components/Navbar.jsx'
 import AboutSection from './components/AboutSection.jsx'
 import ProjectsSection from './components/ProjectsSection.jsx'
 import AchievementsSection from './components/AchievementsSection.jsx'
-import EmailSection from './components/EmailSection.jsx'
 import Footer from './components/Footer.jsx'
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
         <AchievementsSection />
         <AboutSection />
         <ProjectsSection />
-        {/* <EmailSection /> */}
       </div>
       <Footer />
     </main>
