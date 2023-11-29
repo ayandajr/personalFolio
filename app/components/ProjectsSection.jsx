@@ -84,7 +84,7 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
-      <p className="text-center text-base font-semilbold text-white mt-4 mb-8 md:mb-12" style={{marginRight: "200px", marginLeft: "200px", lineHeight: "2"}}>
+      <p className="text-center text-base font-semilbold text-white sm:mt-4 sm:mb-8 md:mb-12" style={{marginRight: "200px", marginLeft: "200px", lineHeight: "2"}}>
         Please note that the below projects are mere examples showcasing technical ability
         while providing a preview of the depth of flexibility when it comes to the <b>custom</b> development 
         of a clients website.
