@@ -38,7 +38,16 @@ const HeroSection = () => {
                         in any project I participate in.
                     </p>
                     <div>
-                        <button href= "#contact" className="px-6 py-3 rounded-full bg-gradient-to-br from-blue-900  to-blue-500 hover:bg-slate-200 text-white" >Hire Me</button> 
+                        <a href="tel:+27814316527">
+                            <button className="px-6 py-3 rounded-full bg-gradient-to-br from-blue-900  to-blue-500 hover:bg-slate-200 text-white" >
+                                Hire Me
+                            </button> 
+                        </a>
+                        <a href="/images/Ayanda Vilakazi.pdf" download>
+                            <button className="ml-7 px-6 py-3 rounded-full border border-slate-300 hover:border-slate-400 hover:bg-grey-100 text-white">
+                                Download CV
+                            </button> 
+                        </a>
                         {/* <button className="px-6 py-3 rounded-full mr-4  bg-transparent hover:bg-slate-800 text-white border border-blue-600">Download CV</button> */}
                     </div>
                 </div>

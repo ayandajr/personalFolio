@@ -38,6 +38,12 @@ const TAB_DATA = [
         <li>The Complete 2023 Web Development Bootcamp</li>
         <li>The Creative JavaScript Course</li>
         <li>10 Mega Responsive Websites with HTML, CSS and JavaScript</li>
+        <li>Combinatorics (University Level): Counting Principle</li>
+        <li>Discrete Math Series : Propositional Logic masterclass</li>
+        <li>Discrete Math Series : Set Theory & Algebra masterclass</li>
+        <li>Complete Mathematics Masterclass: College & University Level</li>
+        <li>Sets, Relations, Functions & Discrete Mathematical Induction</li>
+        <li>Discrete Mathematics</li>
       </ul>
     ),
   },
