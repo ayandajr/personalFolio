@@ -37,14 +37,14 @@ const HeroSection = () => {
                         Ready to infuse teams with boundless energy and expertise, I am poised to drive innovation and success 
                         in any project I participate in.
                     </p>
-                    <div>
+                    <div >
                         <a href="tel:+27814316527">
                             <button className="px-6 py-3 rounded-full bg-gradient-to-br from-blue-900  to-blue-500 hover:bg-slate-200 text-white" >
                                 Hire Me
                             </button> 
                         </a>
                         <a href="/images/Ayanda Vilakazi.pdf" download>
-                            <button className="ml-4 px-6 py-3 rounded-full border border-slate-300 hover:border-slate-400 hover:bg-grey-100 text-white">
+                            <button className="ml-2.5 mt-4 lg:ml-7 lg:mt-0 px-6 py-3 rounded-full border border-slate-300 hover:border-slate-400 hover:bg-grey-100 text-white">
                                 Download CV
                             </button> 
                         </a>
