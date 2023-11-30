@@ -59,6 +59,15 @@ const projectsData = [
     gitUrl: "https://github.com/ayandajr/startUp1",
     previewUrl: "https://ayandajr.github.io/startUp1/",
   },
+  {
+    id: 7,
+    title: "Travel Website",
+    description: "A template that can be used for any typical business landing page.",
+    image: "/images/travelWebsiteCompleteFinish.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/ayandajr/travel-website",
+    previewUrl: "https://github.com/ayandajr/travel-website",
+  },
 ];
 
 const ProjectsSection = () => {
