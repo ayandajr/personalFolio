@@ -63,7 +63,7 @@ const projectsData = [
     id: 7,
     title: "Travel Website",
     description: "A template that can be used for any typical business landing page.",
-    image: "/images/travelWebsiteCompleteFinish.png",
+    image: "/images/travelWebsiteComplete.png",
     tag: ["All", "Web", "Mobile"],
     gitUrl: "https://github.com/ayandajr/travel-website",
     previewUrl: "https://github.com/ayandajr/travel-website",
