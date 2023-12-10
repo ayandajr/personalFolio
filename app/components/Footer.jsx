@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container pt-12 flex justify-center">
             <div className="z-10">
                 <h5 className="text-xl text-center font-bold text-white my-2">
-                    Let&apos;s Connect
+                    Why shouldn&apos;t we connect ?
                 </h5>
                 <p className="justify-center text-center text-[#ADB7BE] mb-4 max-w-md" style={{paddingLeft: "15px", paddingRight: "15px"}}>
                     {" "}
