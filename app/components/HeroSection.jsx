@@ -31,7 +31,7 @@ const HeroSection = () => {
                         />
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:mt-10 sm:mb-10 sm:text-lg  lg:text-xl" style={{marginTop: "50px", marginBottom: "50px", lineHeight: "2"}}>    
-                        An ambitious and dynamic full stack web developer, driven by a hunger for innovation and excellence. <br />
+                        An ambitious and dynamic front end web developer, driven by a hunger for innovation and excellence. <br />
                         With a relentless passion for crafting seamless digital experiences, my dedication to mastering cutting-edge 
                         technologies ensures transformative solutions that captivate users and elevate businesses. <br />
                         Ready to infuse teams with boundless energy and expertise, I am poised to drive innovation and success 

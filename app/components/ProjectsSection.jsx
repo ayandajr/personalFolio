@@ -210,7 +210,7 @@ const ProjectsSection = () => {
 
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/MEMOJI7.png" alt= "Ayandajr memoji" width={500} height={500} />
-          <p className="text-base lg:text-lg text-center">
+          <p className="text-base lg:text-lg text-center lg:mt-24">
             Having been trained by Dr Angelu Yu, who&apos;s 2023 Web Development Bootcamp stands as a pinnacle in the realm of web development education. 
             Her profound expertise and dedication in this field are unparalleled, ensuring that her students receive 
             cutting-edge training in line with the latest industry standards and conventions. Graduates from her program 
