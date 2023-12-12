@@ -66,7 +66,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4 text-center">About Me</h2>
           <p className="text-base lg:text-lg text-center">
-            I am a front end web developer with a passion for creating
+            I am a Front-End Web Developer with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript, React, NEXTjs 13, Node.js, Express, Microsoft Access Database Management,
             MONGODB, PRISMA DB, HTML, CSS and TAILWIND CSS. I am a quick learner and I am always
