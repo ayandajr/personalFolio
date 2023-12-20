@@ -84,7 +84,7 @@ const nextJSProjects = [
   {
     id: 2,
     title: "Ecommerce Store Admin",
-    description: "An ecommerce admin dashboard powered by Payload. Allowing the ultimate administrative control. Refer to the following Login Credentials: Email being 'ayandajr11@gmail.com' and Password being '@BagTOSecure11', to access the dashboard of this particular design.",
+    description: "An ecommerce admin dashboard powered by Payload. Allowing the ultimate administrative control. Refer to the following Login Credentials: Email being 'ayandajr11@gmail.com' and Password being '@BagToSecure11', to access the dashboard of this particular design.",
     image: "/images/DASHFINISH.png",
     tag: ["All", "Web", "Mobile"],
     gitUrl: "https://github.com/ayandajr/e-commerce",
