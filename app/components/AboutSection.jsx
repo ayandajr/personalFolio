@@ -26,7 +26,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Near Completion</li>
+        <li>To Be Completed</li>
       </ul>
     ),
   },
