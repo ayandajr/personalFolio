@@ -12,6 +12,11 @@ export default function Home() {
       <Navbar />
       <div className="container mt-24 mx-auto px-12 py-4">
         <HeroSection />
+        <div className='flex justify-center text-slate-400'>
+          <p className='text-center'>
+            Please note if you are viewing this website on desktop, for the best possible experience please ensure that you are using Google Chrome to render this website.
+          </p>
+        </div>
         <AchievementsSection />
         <AboutSection />
         <ProjectsSection />
