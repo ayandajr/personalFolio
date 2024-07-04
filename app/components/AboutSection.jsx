@@ -34,7 +34,7 @@ const TAB_DATA = [
     title: "Certifications",
     id: "certifications",
     content: (
-      <ol className="list-disc pl-2">
+      <ul className="list-disc pl-2">
         <a href="/images/2023 COMPLETE WEB DEVELOPMENT BOOTCAMP.pdf" download>
           <li>The Complete 2023 Web Development Bootcamp</li>
         </a>
@@ -62,7 +62,7 @@ const TAB_DATA = [
         <a href="/images/DISCRETE MATHEMATICS.pdf" download>
           <li>Discrete Mathematics</li>
         </a>
-      </ol>
+      </ul>
     ),
   },
 ];
