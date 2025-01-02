@@ -71,28 +71,6 @@ const projectsData = [
   },
 ];
 
-const nextJSProjects = [
-  {
-    id: 1,
-    title: "Ecommerce Store",
-    description: "An ecommerce store template for a business selling tech products",
-    image: "/images/STOREFINISH.png",
-    tag: ["All", "Web", "Mobile"],
-    gitUrl: "https://github.com/ayandajr/e-commerce",
-    previewUrl: "https://e-commerce-ajv.payloadcms.app/",
-  },
-  {
-    id: 2,
-    title: "Ecommerce Store Admin",
-    description: "An ecommerce admin dashboard powered by Payload. Allowing the ultimate administrative control. Refer to the following Login Credentials: Email being 'ayandajr11@gmail.com' and Password being '@BagToSecure11', to access the dashboard of this particular design.",
-    image: "/images/DASHFINISH.png",
-    tag: ["All", "Web", "Mobile"],
-    gitUrl: "https://github.com/ayandajr/e-commerce",
-    previewUrl: "https://e-commerce-ajv.payloadcms.app/admin",
-  }
-
-];
-
 
 const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
@@ -131,42 +109,6 @@ const ProjectsSection = () => {
         while providing a preview of the depth of flexibility when it comes to the <b>custom</b> development 
         of a clients website.
       </p>
-      <h2 className="text-center text-4xl font-bold text-gray-500 lg:mt-36 lg:mb-12 mt-10 mb-8 md:mb-12">
-        ECOMMERCE APPLICATIONS
-      </h2>
-      <p className="text-center text-base font-semilbold text-white sm:mr-0 sm:ml-0 sm:mb-0 sm:mt-0 lg:mr-48 lg:ml-48 mt-4 mb-8 md:mb-12" style={{lineHeight: "2"}}>
-        Experience the future of online shopping: an ecommerce marvel meticulously crafted with cutting-edge Next 13 and React technologies,
-        setting the standard in website development by the visionary team at ayandajr.
-      </p>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        <ProjectTag
-          onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
-        />
-      </div>
-      <ul ref={ref} className="grid md:grid-cols-2 gap-8 md:gap-12">
-        {filteredProjectsTwo.map((project, index) => (
-            <ProjectCard
-              key={project.id}
-              title={project.title}
-              description={project.description}
-              imgUrl={project.image}
-              gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
-            />
-        ))}
-      </ul>
       <h2 className="text-center text-4xl font-bold text-gray-500 lg:mt-36 lg:mb-12 mt-10 mb-8 md:mb-12">
         STATIC & DYNAMIC WEBSITES
       </h2>
